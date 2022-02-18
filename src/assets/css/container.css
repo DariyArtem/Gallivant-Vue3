@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1920px){
+    .container {
+        max-width: 1172px
+    }
+}
+
+@media only screen and (max-width: 1599px){
+        .container {
+            max-width: 976px
+        }
+    }
+@media only screen and (max-width: 1399px){
+    .container {
+        max-width: 854px
+    }
+}
+@media only screen and (max-width: 1199px){
+    .container {
+        max-width: 732px
+    }
+}
+@media only screen and (max-width: 991px){
+    .container {
+        max-width: 605px
+    }
+}
+@media only screen and (max-width: 767px){
+    .container {
+        max-width: 468px
+    }
+}
+@media only screen and (max-width: 575px){
+    .container {
+        max-width: 351px
+    }
+}

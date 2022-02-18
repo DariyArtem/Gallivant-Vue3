@@ -20,4 +20,7 @@ name: "MyHeaderContent",
   display: flex;
   align-items: center;
 }
+@media  {
+  
+}
 </style>
