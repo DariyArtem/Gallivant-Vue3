@@ -1,12 +1,12 @@
 <template>
-<my-categories-title/>
+  <my-categories-title/>
   <my-categories-list :categories="getCategories"/>
 </template>
 
 <script>
 import MyCategoriesList from "@/components/MyCategoriesList";
 import MyCategoriesTitle from "@/components/MyCategoriesTitle";
-import {mapActions, mapMutations, mapGetters} from "vuex";
+import {mapActions, mapGetters} from "vuex";
 export default {
 name: "MyCategories",
   components: {
@@ -14,13 +14,9 @@ name: "MyCategories",
     MyCategoriesTitle
   },
   methods:{
-    ...mapMutations({
-      setPosts: 'category/setCategories',
-    }),
     ...mapActions({
       fetchCategories: 'category/fetchCategories'
     })
-
   },
   computed:{
    ...mapGetters({

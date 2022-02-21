@@ -1,7 +1,7 @@
 <template>
   <div class="swiper-slide">
     <router-link to="#">
-      <img v-bind:src="category.img_path" alt="">
+      <img v-bind:src="'http://gallivant/storage/'+category.img_path" alt="">
     </router-link>
     <div class="centered">{{ category.name }}</div>
   </div>
