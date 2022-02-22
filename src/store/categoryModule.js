@@ -18,7 +18,6 @@ export const categoryModule = {
         async fetchCategories({state, commit}) {
             try {
                 const response = await axios.get('https://gallivant/api/categories')
-                console.log(response)
                 commit('setCategories', response.data)
             } catch (e) {
                 console.log(e)

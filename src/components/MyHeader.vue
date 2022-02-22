@@ -1,13 +1,15 @@
 <template>
+  <my-background/>
   <header class="header">
-    <my-background/>
     <div class="container">
         <my-header-row/>
         <my-header-hr/>
         <my-nav-list/>
-        <my-header-content/>
     </div>
   </header>
+  <div class="container">
+    <my-header-content/>
+  </div>
 </template>
 
 <script>

@@ -1,23 +1,33 @@
 <template>
   <div class="background">
-    <my-background-image/>
-    <my-background-gradient/>
+    <img src="@/assets/background.png" alt="">
+    <div class="background-gradient"></div>
   </div>
 </template>
 
 <script>
-import MyBackgroundImage from "@/components/MyBackgroundImage";
-import MyBackgroundGradient from "@/components/MyBackgroundGradient";
+
 export default {
 name: "MyBackground",
-  components:{
-    MyBackgroundGradient,
-    MyBackgroundImage
-  }
 }
 </script>
 
 <style scoped>
+.background-gradient {
+  height: 100vh;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+img{
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
 .background{
   height: 100vh;
   width: 100%;

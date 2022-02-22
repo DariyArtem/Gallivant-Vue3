@@ -84,6 +84,12 @@ a{
   font-size: 14px;
   color: #FFA902;
 }
+a:hover{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #131313;
+}
 img{
   position: relative;
   width: 100%;

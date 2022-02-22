@@ -15,6 +15,7 @@ library.add(fas, fab);
 const app = createApp(App)
 app
     .component('font-awesome-icon', FontAwesomeIcon)
+    .component('pagination', require('laravel-vue-pagination'))
     .use(store)
     .use(router)
     .mount('#app')
