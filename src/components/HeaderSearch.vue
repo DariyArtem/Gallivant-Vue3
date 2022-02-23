@@ -11,35 +11,9 @@
 
 <script>
 export default {
-  name: "MyHeaderSearch"
+  name: "HeaderSearch"
 }
 </script>
 
 <style scoped>
-.header__search {
-  flex: 0 1 554px;
-  display: flex;
-  align-items: center;
-}
-
-.search__form {
-  width: 100%;
-  margin: unset;
-}
-
-.search__loupe {
-  position: absolute;
-  padding-left: 28px;
-  padding-top: 14px;
-  background: none;
-  border: none;
-}
-
-.search__input {
-  text-indent: 65px;
-  width: 98%;
-  height: 53px;
-  border-radius: 30px;
-  border: none;
-}
 </style>

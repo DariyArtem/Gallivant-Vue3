@@ -1,13 +1,15 @@
 <template>
-  <slot></slot>
+<div class="icon"><slot></slot></div>
 </template>
 
 <script>
 export default {
-name: "MyNavItem"
+name: "HeaderIcon",
+
 }
 </script>
 
 <style scoped>
+
 
 </style>

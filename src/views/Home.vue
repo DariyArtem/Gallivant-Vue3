@@ -1,22 +1,25 @@
 <template>
-  <my-header></my-header>
-  <my-categories/>
-  <my-featured-explores/>
+  <header-section></header-section>
+  <categories-section/>
+  <featured-explores-section/>
+  <latest-posts-sections/>
 </template>
 
 <script>
 // @ is an alias to /src
 
-import MyHeader from "@/components/MyHeader";
-import MyCategories from "@/components/MyCategories";
-import MyFeaturedExplores from "@/components/MyFeaturedExplores"
+import HeaderSection from "@/sections/HeaderSection";
+import CategoriesSection from "@/sections/CategoriesSection";
+import FeaturedExploresSection from "@/sections/FeaturedExploresSection"
+import LatestPostsSections from "@/sections/LatestPostsSections";
 
 export default {
   name: 'Home',
   components: {
-    MyHeader,
-    MyCategories,
-    MyFeaturedExplores,
+    HeaderSection,
+    CategoriesSection,
+    FeaturedExploresSection,
+    LatestPostsSections,
 
   }
 }

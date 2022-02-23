@@ -1,7 +1,7 @@
 <template>
   <div class="swiper-slide">
     <router-link to="#">
-      <img v-bind:src="'http://gallivant/storage/'+category.img_path" alt="">
+      <img class="categories__category-image" v-bind:src="'http://gallivant/storage/'+category.img_path" alt="">
     </router-link>
     <div class="centered">{{ category.name }}</div>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-name: "MyCategory",
+name: "Category",
   props:{
     category: {
       type: Object,

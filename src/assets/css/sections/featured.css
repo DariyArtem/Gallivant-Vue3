@@ -1,0 +1,104 @@
+.disabled{
+    display: none;
+}
+.pagination{
+    margin-top: 50px;
+}
+.page-link{
+    border: none;
+    color: #141414;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+.page-link:hover{
+    border: none;
+    color: #FFA902;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+.active{
+    border: none;
+    color: #FFA902;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.explores-pagination-prev{
+    transform: scale(-1, 1);
+}
+
+
+.featured {
+    margin-top: 100px;
+}
+.featured__post{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+.featured__card{
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.featured__info{
+    margin: 25px;
+    max-width: 320px;
+}
+.featured__ref{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFA902;
+}
+.featured__post-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.featured__post-description{
+    line-height: 183.3%;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #868383;
+}
+.featured__info-footer{
+    display: flex;
+    align-items: baseline;
+}
+.featured__post-author{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #141414
+}
+.featured__by-word {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #696969;
+    margin: 0 5px 0 5px;
+}
+.featured__ref:hover{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #131313;
+}
+.featured__image{
+    position: relative;
+    width: 100%;
+    height: 288px;
+    border-radius: 10px 10px 0px 0px;
+}

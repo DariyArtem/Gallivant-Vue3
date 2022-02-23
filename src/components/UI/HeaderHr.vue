@@ -4,12 +4,10 @@
 
 <script>
 export default {
-name: "MyHeaderHr"
+name: "HeaderHr"
 }
 </script>
 
 <style scoped>
-.header__hr{
-  border: 1px solid #868383;
-}
+
 </style>

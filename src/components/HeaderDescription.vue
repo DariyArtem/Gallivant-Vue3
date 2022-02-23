@@ -11,19 +11,10 @@
 
 <script>
 export default {
-name: "MyHeaderDescription"
+name: "HeaderDescription"
 }
 </script>
 
 <style scoped>
-.header__description{
-  line-height: 196.3%;
-  max-width: 865px;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  color: #fff;
-  margin: 0 auto 28px auto;
-}
+
 </style>
